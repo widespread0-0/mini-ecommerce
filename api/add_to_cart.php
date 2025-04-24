@@ -1,4 +1,3 @@
-// this is under a sub file called api; thus, api/add_to_cart.php
 <?php
 require '../db.php';
 session_start();
