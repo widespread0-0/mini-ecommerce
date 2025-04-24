@@ -1,3 +1,4 @@
+// api/login.php
 <?php
 require '../db.php';
 
@@ -16,7 +17,7 @@ if ($user && password_verify($password, $user['password'])) {
 } else {
     echo "Invalid login credentials.";
 }
-
+// login.php
 <!DOCTYPE html>
 <html>
 <head><title>Login</title></head>
