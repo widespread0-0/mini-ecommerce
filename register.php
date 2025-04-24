@@ -1,3 +1,4 @@
+//this is for api/register.php
 <?php
 require '../db.php';
 
@@ -23,6 +24,7 @@ if ($stmt->execute()) {
     echo "Error: " . $stmt->error;
 }
 
+// this is for register.php(html)
 <!DOCTYPE html>
 <html>
 <head><title>Register</title></head>
